@@ -1,0 +1,57 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# Generated datasets
+# =========================
+data/generated/
+*.csv
+
+# Keep CSV files if explicitly needed later
+# !path/to/file.csv
+
+# =========================
+# Cache / tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / temp files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/current_streamlit_app.txt
