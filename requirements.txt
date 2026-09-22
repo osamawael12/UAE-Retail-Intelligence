@@ -1,1 +1,13 @@
-
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+pyodbc
+python-dotenv
+Faker
+bcrypt
+SQLAlchemy
+scipy
+scikit-learn
